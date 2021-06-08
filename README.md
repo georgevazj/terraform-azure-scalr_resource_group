@@ -1,1 +1,2 @@
-# terraform-azure-scalr_resource_group
+# iac.az.resource-group.module
+Modulo terraform para la creación de resource groups
