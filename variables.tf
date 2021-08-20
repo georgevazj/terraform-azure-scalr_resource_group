@@ -14,6 +14,11 @@ variable "tenant_id" {
   type = string
 }
 
+variable "environment_acronym" {
+  type        = string
+  description = "(Required) Specifies the acronym of Azure subcription. Example: d1"
+}
+
 variable "workload_acronym" {
   type        = string
   description = "(Required) Specifies the name of the Resource Group. Changing this forces a new resource to be created"

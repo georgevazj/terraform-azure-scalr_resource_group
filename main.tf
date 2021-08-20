@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 locals {
-  header = "sans1weu"
+  header = "san${var.environment_acronym}}weu"
   rsg_name = "${local.header}rsg${var.workload_acronym}comm${var.sequence_number}"
   sta_name = "${local.header}sta${var.workload_acronym}comm${var.sequence_number}"
   akv_name = "${local.header}sta${var.workload_acronym}comm${var.sequence_number}"
